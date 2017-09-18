@@ -1,0 +1,125 @@
+body {
+	font-family: 'Slabo 27px', serif;
+	margin-top: 54px;
+	background-color: #d2dde0;
+}
+
+/*-----------------------NAV--------------*/
+
+#header_style {
+	text-align: center;
+	
+}
+
+nav{
+    padding: 10px 0;
+}
+
+nav li {
+	background-color: #1B1B1E;
+	box-shadow: 10px 10px 5px rgba(35, 35, 36, 0.84);
+	font-size: 9px;
+	border-right: solid;
+	display: inline-block;
+
+}
+
+nav a {
+	color: #fff;
+	font-size: 2.555em;
+	padding: 15px 50px;
+	text-decoration: none
+}
+
+nav a.selected, nav a:hover {
+  color: blue;
+}
+
+/*--------------favotite hobies wraper1-------------*/
+
+#MainWraper {
+	text-align: center;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+#Wraper1 ul li {
+	margin-bottom: 40px;
+	padding-top: 40px;
+}
+
+a{
+	color: #8e9296;
+}
+
+h2 {
+	margin-bottom: 30px;
+}
+hr {
+	border-top: solid 1px;
+}
+div ul {
+	list-style: none;
+}
+
+.img_family {
+	height: 253px;
+	width: 243px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-radius: 16%;
+}
+
+.img_sports {
+	height: 253px;
+	width: 243px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-radius: 16%;
+}
+
+.img_history {
+	height: 197px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-radius: 16%;
+}
+
+.img_tutorial {
+	height: 197px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-radius: 16%;
+}
+
+.img_language {
+	height: 197px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-radius: 16%;
+}
+
+.img_dance {
+	height: 253px;
+	width: 243px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-radius: 16%;
+}
+.img_games {
+	height: 197px;
+	margin-top: 15px;
+	margin-right: 50px;
+	border-radius: 16%;
+}
+
+/*---------------------FOOTER---------------------*/
+
+footer {
+	margin-top: 40px;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	text-align: center;
+
+}
